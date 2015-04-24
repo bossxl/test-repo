@@ -1,2 +1,3 @@
-eval('jsCode'+usercontrolledVal )
-window.eval('jsCode'+usercontrolledVal )
+usercontrolledVal = 24;
+eval('var alpha = ' + usercontrolledVal );
+window.eval('var alpha = ' + usercontrolledVal );
